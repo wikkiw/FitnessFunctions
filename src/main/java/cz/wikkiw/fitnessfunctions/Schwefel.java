@@ -45,4 +45,9 @@ public class Schwefel implements FitnessFunction {
         
     }
     
+    @Override
+    public String getName() {
+        return "Schwefel";
+    }
+    
 }

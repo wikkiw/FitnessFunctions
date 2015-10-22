@@ -54,6 +54,9 @@ public class Quadric implements FitnessFunction {
         
     }
     
-    
+    @Override
+    public String getName() {
+        return "Quadric";
+    }
     
 }

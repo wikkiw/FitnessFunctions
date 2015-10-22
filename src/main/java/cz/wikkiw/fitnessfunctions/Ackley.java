@@ -44,5 +44,10 @@ public class Ackley implements FitnessFunction {
     public double getFal(int dimension) {
         return Math.pow(10,-7);
     }
+
+    @Override
+    public String getName() {
+        return "Ackley";
+    }
     
 }

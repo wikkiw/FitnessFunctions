@@ -42,4 +42,9 @@ public class Salomon implements FitnessFunction{
         return Math.pow(10, -7);
     }
     
+    @Override
+    public String getName() {
+        return "Salomon";
+    }
+    
 }

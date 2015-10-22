@@ -47,4 +47,9 @@ public class Rosenbrock implements FitnessFunction {
         
     }
     
+    @Override
+    public String getName() {
+        return "Rosenbrock";
+    }
+    
 }

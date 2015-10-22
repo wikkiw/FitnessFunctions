@@ -53,4 +53,9 @@ public class Griewank implements FitnessFunction {
         
     }
     
+    @Override
+    public String getName() {
+        return "Griewank";
+    }
+    
 }
