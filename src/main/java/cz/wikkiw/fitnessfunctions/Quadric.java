@@ -58,5 +58,10 @@ public class Quadric implements FitnessFunction {
     public String getName() {
         return "Quadric";
     }
+
+    @Override
+    public void init(int dim) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

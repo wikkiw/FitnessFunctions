@@ -8,6 +8,7 @@ import cz.wikkiw.fitnessfunctions.objects.Boundary;
  */
 public interface FitnessFunction {
     
+    public void init(int dim);
     public String getName();
     public double getValue(double[] features);
     public Boundary getBoundary();

@@ -46,5 +46,10 @@ public class Salomon implements FitnessFunction{
     public String getName() {
         return "Salomon";
     }
+
+    @Override
+    public void init(int dim) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

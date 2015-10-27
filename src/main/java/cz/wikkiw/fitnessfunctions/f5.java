@@ -11,6 +11,18 @@ import java.util.logging.Logger;
  */
 public class f5 implements FitnessFunction {
 
+    private testfunc tf;
+    
+    @Override
+    public void init(int dim) {
+        tf = new testfunc();
+        try {
+            tf.readBasics(dim, 1, 5);
+        } catch (Exception ex) {
+            Logger.getLogger(f1.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+    
     @Override
     public String getName() {
         return "f5";
@@ -19,7 +31,6 @@ public class f5 implements FitnessFunction {
     @Override
     public double getValue(double[] features) {
         
-        testfunc tf = new testfunc();
         double[] f = new double[1];
         try {
             tf.test_func(features,f,features.length,1,5);
