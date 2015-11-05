@@ -52,7 +52,7 @@ public class Ackley implements FitnessFunction {
 
     @Override
     public void init(int dim) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }
